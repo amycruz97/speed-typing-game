@@ -32,58 +32,58 @@ const levelSelector = document.querySelector("#level")
 
 
 
-/*const words = [
-// 'hat',
-// 'river',
-// 'statue',
-// 'generate',
-// 'stubborn',
-// 'cocktail',
-// 'sugar',
-// 'nonsense',
-// 'jealous',
-// 'impatient',
-// 'joke',
-// 'css',
-// 'vue',
-// 'javascript',
-// 'algorithm',
-// "own",
-// "other",
-// "old",
-// "right",
-// "big",
-// "high",
-// "different",
-// "small",
-// "large",
-// "next",
-// "early",
-// "young",
-// "important",
-// "few",
-// "public",
-// "bad",
-// "same",
-// "able"
+const words = [
+'hat',
+'river',
+'statue',
+'generate',
+'stubborn',
+'cocktail',
+'sugar',
+'nonsense',
+'jealous',
+'impatient',
+'joke',
+'css',
+'vue',
+'javascript',
+'algorithm',
+"own",
+"other",
+"old",
+"right",
+"big",
+"high",
+"different",
+"small",
+"large",
+"next",
+"early",
+"young",
+"important",
+"few",
+"public",
+"bad",
+"same",
+"able"
 
 
-];*/
+];
 
-let words = []
+// let words = []
 
 
 //Initialize game
 
 function init() {
-	fetch('https://random-word-api.herokuapp.com/word?key=A92JRX9N&number=100 ')
-	.then((res) => res.json())
-	.then((data) => {
-		//console.log(data)
-		words = [...data]
-		showWord(words)
-	})
-	.catch((err) => console.log(err))
+	// fetch('https://random-word-api.herokuapp.com/word?key=FHN7XAIR&number=100')
+	// .then((res) => res.json())
+	// .then((data) => {
+	// 	console.log(data);
+	// 	words = [...data]
+	// 	showWord(words)
+	// })
+	// .catch((err) => console.log(err))
 
 
 
