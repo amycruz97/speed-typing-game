@@ -4,4 +4,4 @@ You can either pick from easy, medium or hard based on the seconds you want to t
 
 It was written in HTML5, Bootstrap and vanilla javascript.
 
-These game was inspired by travesary media but more featurs and design where added
+These game was inspired by travesary media but more features and design where added
