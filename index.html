@@ -1,0 +1,106 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no"  >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Speed-typing-game</title>
+
+	    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="text-white" style="background: black;">
+	<header class="bg-success text-center p-3 mb-5">
+		<h1>SpeedTypingGame</h1>
+	</header>
+
+
+	<div class="container-fluid text-center">
+
+		<!-- word & input -->
+
+		<div id="container" class="select">
+			<h2 >Select level</h2>
+				<div id="level">
+				 	<button  class="bg-success selected " value="easy" style="border: 1px solid black; margin: 10px 0 20px 0;">Easy</button>
+				 	<button class="bg-success" value="medium" style="border: 1px solid black;  margin: 10px 0 20px 0;">medium</button>
+				 	<button  class="bg-success" value="hard" style="border: 1px solid black;  margin: 10px 0 20px 0;">hard</button>
+				 	</div>
+				 </div>
+
+		<div class="row">
+			<div class="col-md-6 mx-auto">
+
+         <p class="lead">Type The Given Word Within <span class="text-success" id="seconds">5</span> Seconds:</p>
+				
+
+				 <h2 class="display-2 mb-5" id="current-word">Hello</h2>
+
+				 	<input type="text" class="form-control form-control-lg" placeholder="Start Typing..." id="word-input" autofocus>
+				 	<h4 class="mt-3" id="message"></h4>
+
+				 	<!-- TIME & SCORE -->
+
+				 	<div class="row mt-5">
+
+				 		<div class="col-md-4">
+              <h3>Time Left:
+               <span id="time">0</span>
+              </h3>
+            </div>
+
+            <div class="col-md-4">
+              <h3>Score:
+                <span id="score">0</span>
+              </h3>
+            </div>
+
+             <div class="col-md-4">
+              <h3>High Score:
+                <span id="high-score">0</span>
+              </h3>
+            </div>
+
+				 	</div>
+
+
+				 	<!-- INSTRUCTIONS -->
+
+				 	<div class="row mt-5">
+				 		<div class="col-md-12">
+				 			<div class="card card-body bg-success text-white">
+				 				<h5>Instructions</h5>
+				 				<p>Type each word in the given amount of seconds to score. To play, just type the current word. Your score will reset</p>
+				 				
+				 			</div>
+				 			
+				 		</div>
+				 		
+				 	</div>
+
+			
+			</div>
+		</div>
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+	<script src="main.js"></script>
+
+	
+
+</body>
+</html>
